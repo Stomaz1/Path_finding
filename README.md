@@ -4,6 +4,10 @@ Dijkstra and Astar in Julia language
 
 Pour lancer les 2 algorithme:
 
-1) include l'algorithme souhaité exemple: include("Astar.jl")
-2) Puis exécutez le main de la façon suivante: main("nom_du_fichier_map",[i,j],[k,l]) [i,j] est le point de départ, [k,l] le point d'arrivé
+1) include le fichier julia: include("pathfinding.jl")
+2) appeler l'algorithme souhaiter de la façon suivante: Astar("Nom_de_map.map",[x,y],[z,w]) avec départ=[x,y] et arrivée=[z,w]
+3) Pour dijkstra marche de la même façon en remplaçant Astar par Dijkstra
+
+
+
 
